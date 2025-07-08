@@ -1,4 +1,4 @@
-# From Data to Translation: Leveraging AI for Efficient and Accurate Translation of Technical Scientific Reports 
+# From Data to Translation: Leveraging AI for Efficient and Accurate Translation of Scientific Reports 
 
 ## Description
 
