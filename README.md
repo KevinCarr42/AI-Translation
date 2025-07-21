@@ -34,4 +34,4 @@ As CSAS is unique to Fisheries and Oceans Canada (DFO), initial work will be han
 
 Now that training data has be compiled and cleaned, it is possible to finetune an LLM translation model. The next steps include choosing a model to finetune, performing the finetuning, creating test cases to evaluate results, and tweaking hyperparameters to optimise the translation performance improvements.
 
-
+Work-in-progress: https://github.com/KevinCarr42/finetune_translations
