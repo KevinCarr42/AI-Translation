@@ -1,5 +1,7 @@
 # From Data to Translation: Leveraging AI for Efficient and Accurate Translation of Scientific Reports 
 
+# Phase 1: Data Gathering and Transformation
+
 ## Description
 
 The Canadian Science Advisory Secretariat (CSAS) publishes hundreds of scientific documents each year, most of which require translation from English to French under the Official Languages Act. This project involves fine-tuning an AI translation model using ~10,000 existing CSAS translations. This could improve consistency, accuracy, and significantly reduce translation costs and timelines, ensuring faster delivery of scientific recommendations to Canadians. 
@@ -30,8 +32,22 @@ As CSAS is unique to Fisheries and Oceans Canada (DFO), initial work will be han
 
 ![image](https://github.com/user-attachments/assets/d918a9c9-2c00-41e3-88b9-e382f740033f)
 
-## Future Work (in-progress)
+## Future Work Phases
 
-Now that training data has be compiled and cleaned, it is possible to finetune an LLM translation model. The next steps include choosing a model to finetune, performing the finetuning, creating test cases to evaluate results, and tweaking hyperparameters to optimise the translation performance improvements.
+Following the completion of the data gathering and cleaning phase, a number of finetuned translation models were trained. The subsequent steps included choosing a selection of models to finetune, performing the finetuning, creating test cases to evaluate results, and tweaking hyperparameters to optimise translation performance improvements.
 
-Work-in-progress: https://github.com/KevinCarr42/finetune_translations
+After finetuning the models, a rules-based translation layer was added. Using a list of preferred translations for locations, species, acronyms, and scientific terms, the quality of these scientific translations was further improved.
+
+To evaluate the performance of different models, with and without different rules-based translation layers, a survey was created to evaluate random samplings from different schemas, as well as the corresponding published translations. This survey was randomised with model information hidden to create a blind survey, reducing bias when rating or ranking translation quality results.
+
+Using survey data and analytical calculations to evaluate translation quality, as well as similarity to previously published translations, the final model and rules-based layer will be selected (in-progress).
+
+After a translation model is chosen and finalised, the model will be deployed for internal use by select CSAS staff within DFO (in-progress).
+
+### Links to Repositories for Future Phases:
+
+#### Phase 2: [AI Translation Fine-Tuning](https://github.com/KevinCarr42/Translation-Fine-Tuning) (complete)
+#### Phase 3: [Rule-Based Preferential Translations](https://github.com/KevinCarr42/rule-based-translation) (complete)
+#### Phase 4: [AI Translation Quality Survey App](https://github.com/KevinCarr42/translation-quality-survey-app) (complete)
+#### Phase 5: [Final AI Translation Model and Translation Quality Evaluation](https://github.com/KevinCarr42/CSAS-Translations) (in-progress)
+#### Phase 6: Deploy the Final Model (in-progress)
