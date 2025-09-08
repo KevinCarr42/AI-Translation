@@ -44,10 +44,11 @@ Using survey data and analytical calculations to evaluate translation quality, a
 
 After a translation model is chosen and finalised, the model will be deployed for internal use by select CSAS staff within DFO (in-progress).
 
-### Links to Repositories for Future Phases:
+### Links to Repositories for All Phases:
 
-#### Phase 2: [AI Translation Fine-Tuning](https://github.com/KevinCarr42/Translation-Fine-Tuning) (complete)
-#### Phase 3: [Rule-Based Preferential Translations](https://github.com/KevinCarr42/rule-based-translation) (complete)
-#### Phase 4: [AI Translation Quality Survey App](https://github.com/KevinCarr42/translation-quality-survey-app) (complete)
-#### Phase 5: [Final AI Translation Model and Translation Quality Evaluation](https://github.com/KevinCarr42/CSAS-Translations) (in-progress)
-#### Phase 6: Deploy the Final Model (in-progress)
+- **Phase 1**: Data Gathering and Transformation (complete)
+- **Phase 2**: [AI Translation Fine-Tuning](https://github.com/KevinCarr42/Translation-Fine-Tuning) (complete)
+- **Phase 3**: [Rule-Based Preferential Translations](https://github.com/KevinCarr42/rule-based-translation) (complete)
+- **Phase 4**: [AI Translation Quality Survey App](https://github.com/KevinCarr42/translation-quality-survey-app) (complete)
+- **Phase 5**: [Final AI Translation Model and Translation Quality Evaluation](https://github.com/KevinCarr42/CSAS-Translations) (in-progress)
+- **Phase 6**: Deploy the Final Model (in-progress)
